@@ -6,8 +6,8 @@ Client-Server is a system where
 - Server -> sends back the result
 
 Simple idea:
-`Client → Request → Server`
-`Server → Response → Client`
+- `Client → Request → Server`
+- `Server → Response → Client`
 
 2. What is a Client?
 A client is Laptop, Phone, Tablet, Browser, App
@@ -57,17 +57,17 @@ Client–Server (Modern Model)
 - Heavy tasks run on server
 - Client can work offline (partially)
 
-Mainframe → Centralized Intelligence
-Client–Server → Distributed Intelligence
+- Mainframe → Centralized Intelligence
+- Client–Server → Distributed Intelligence
 
 7. What is RPC (Remote Procedure Call)?
-RPC means:
-Calling a function that runs on another machine.
-Example of:
-`result = calculate()`
-You do:
-`result = server.calculate()`
-Server executes it remotely and returns result.
+- RPC means:
+- Calling a function that runs on another machine.
+- Example of:
+- `result = calculate()`
+- You do:
+- `result = server.calculate()`
+- Server executes it remotely and returns result.
 
 Modern example:
 - REST API
